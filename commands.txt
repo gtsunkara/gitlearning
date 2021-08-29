@@ -1,3 +1,5 @@
+##Token password#######
+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
 #############Installation on mac####
 brew install git
 ############Check status#########
