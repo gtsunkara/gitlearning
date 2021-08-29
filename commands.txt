@@ -1,0 +1,14 @@
+#############Installation on mac####
+brew install git
+############Check status#########
+git --version
+############Git config############
+git config --global user.name "[name]"
+git config --global user.email "gtsunkara@gmail.com"
+############Git init#############
+git init
+###########Git add##############
+git add <file name>
+###########Git commit############
+git commit -m "my first message"
+
