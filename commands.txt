@@ -18,3 +18,15 @@ git log --oneline
 git show deeac51:commands.txt
 git checkout f68b86b commands.txt
 git commit -m "revert changes"
+######Git Clone##########
+git clone git@github.com:gtsunkara/gitlearning.git
+#######Git branches and merge#########
+###To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch
+git checkout -b branch1
+echo"test file" > testfile
+git add .
+git commit -a -m "Create new code for branch test"
+git checkout master
+git merge branch1
+##############################
+
